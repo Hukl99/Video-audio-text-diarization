@@ -3,6 +3,7 @@ __pycache__/
 *.py[cod]
 *$py.class
 *.pt
+*.bin
 
 # Ignore audio/video files and model checkpoints
 *.wav
@@ -200,4 +201,5 @@ cython_debug/
 #  exclude from AI features like autocomplete and code analysis. Recommended for sensitive data
 #  refer to https://docs.cursor.com/context/ignore-files
 .cursorignore
-.cursorindexingignore
+.cursorindexingignore"*.pt" 
+"bfg-1.14.0.jar" 
