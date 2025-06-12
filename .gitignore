@@ -3,6 +3,14 @@ __pycache__/
 *.py[cod]
 *$py.class
 
+# Ignore audio/video files and model checkpoints
+*.wav
+*.mp4
+*.txt
+*.log
+*.ckpt
+__pycache__/
+
 # C extensions
 *.so
 
